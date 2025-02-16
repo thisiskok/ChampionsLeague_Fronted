@@ -1,0 +1,145 @@
+{
+    "teams": [
+        {
+            "cover": "/teams/Arsenal.png", 
+            "title": "Arsenal"
+        }, 
+        {
+            "cover": "/teams/AstonVilla.png", 
+            "title": "Aston-Villa"
+        },
+        {
+            "cover": "/teams/atalanta.png", 
+            "title": "Atalanta"
+        },
+        {
+            "cover": "/teams/barcelona.png", 
+            "title": "Barcelona"
+        },
+        {
+            "cover": "/teams/BayerLeverkusen.svg.webp", 
+            "title": "Bayer-Leverkusen"
+        },
+        {
+            "cover": "/teams/BayernMunich.png", 
+            "title": "Bayern-Munich"
+        },
+        {
+            "cover": "/teams/Benfica.svg.png", 
+            "title": "Benfica"
+        }, 
+        {
+            "cover": "/teams/bolognaNew.png", 
+            "title": "Bologna"
+        },
+        {
+            "cover": "/teams/StadeBrestois.png", 
+            "title": "Brestois"
+        },
+        {
+            "cover": "/teams/CelticNew.png", 
+            "title": "Celtic"
+        },
+        {
+            "cover": "/teams/club-brugge.png", 
+            "title": "Club-Brugge"
+        },
+        {
+            "cover": "/teams/Dinamo_Zagreb.png", 
+            "title": "Dinamo-Zagreb"
+        },
+        {
+            "cover": "/teams/Borussia_Dortmund.png", 
+            "title": "Dortmund"
+        },
+        {
+            "cover": "/teams/Feyenoord.png", 
+            "title": "Feyenoord"
+        },
+        {
+            "cover": "/teams/Girona.png", 
+            "title": "Girona"
+        },
+        {
+            "cover": "/teams/internazionale-milano.png", 
+            "title": "Internazionale"
+        },
+        {
+            "cover": "/teams/juventus.png", 
+            "title": "Juventus"
+        },
+        {
+            "cover": "/teams/lille.png", 
+            "title": "Lille"
+        },
+        {
+            "cover": "/teams/Liverpool.png", 
+            "title": "Liverpool"
+        },
+        {
+            "cover": "/teams/ManchesterCity.png", 
+            "title": "Manchester-City"
+        },
+        {
+            "cover": "/teams/ac-milan.png", 
+            "title": "Milan"
+        },
+        {
+            "cover": "/teams/monaco.png", 
+            "title": "Monaco"
+        },
+        {
+            "cover": "/teams/paris-saint-germain.png", 
+            "title": "Paris-Saint-Germain"
+        },
+        {
+            "cover": "/teams/PSV_Eindhoven.png", 
+            "title": "PSV-Eindhoven"
+        },
+        {
+            "cover": "/teams/rb-leipzig.png", 
+            "title": "RB-Leipzig"
+        },
+        {
+            "cover": "/teams/real-madrid.png", 
+            "title": "Real-Madrid"
+        },
+        {
+            "cover": "/teams/redbull-salzburg.png", 
+            "title": "Red-Bull-Salzburg"
+        },
+        {
+            "cover": "/teams/RS_Belgrade.svg.png", 
+            "title": "Red-Star-Belgrade"
+        },
+        {
+            "cover": "/teams/shakhtar-donetsk.png", 
+            "title": "Shakhtar-Donetsk"
+        },
+        {
+            "cover": "/teams/slovan-bratislava.png", 
+            "title": "Slovan-Bratislava"
+        },
+        {
+            "cover": "/teams/Sparta.svg.png", 
+            "title": "Sparta-Prague"
+        },
+        {
+            "cover": "/teams/sporting-cp.png", 
+            "title": "Sporting-CP"
+        },
+        {
+            "cover": "/teams/Sturm_Graz.png", 
+            "title": "Sturm-Graz"
+        },
+        {
+            "cover": "/teams/Vfb_Stuttgart.svg.png", 
+            "title": "Stuttgart"
+        },
+        {
+            "cover": "/teams/youngboys.png", 
+            "title": "Young-Boys"
+        }
+        
+    ]
+}

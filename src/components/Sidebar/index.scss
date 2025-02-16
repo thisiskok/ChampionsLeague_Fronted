@@ -1,0 +1,169 @@
+$nav-bg: #ffffff;           // 导航栏背景色
+$nav-text: rgb(0, 0, 75);   // 文字颜色
+$nav-shadow: rgba(0, 51, 102, 0.3);  // 阴影颜色
+
+.nav-bar { 
+    background: $nav-bg; 
+    opacity: 0.8;
+    width: 100%; 
+    height: 100px; 
+    position: fixed; 
+    top: 0; 
+    z-index: 3;  
+    display: flex; 
+    align-items: center;
+    box-shadow: 0px 2px 4px rgba(0, 51, 102, 0.3);
+    
+    .logo{
+        padding: 8px 10px; 
+        
+        img { 
+            display: block; 
+            margin: 2px auto; 
+            margin-left: 12px;
+            width: 80px; 
+            height: auto;
+            
+        }
+    }
+    nav { 
+        display: flex; 
+        align-items: center;
+        justify-content: space-evenly; 
+        padding-left: 0;
+        flex-grow: 1;
+        a { 
+            font-size: 22px; 
+            color: $nav-text;
+            display: block; 
+            margin: 0 40px; 
+            position: relative; 
+            text-decoration: none; 
+
+            i { 
+                transition: all 0.3s ease-out; 
+            }
+
+            &:hover { 
+                color: $nav-text;
+                
+                svg { 
+                    opacity: 0; 
+                }
+
+                &:after { 
+                    opacity: 1; 
+                }
+            }
+
+            &:after { 
+                content: ""; 
+                font-size: 15px; 
+                letter-spacing: 2px; 
+                position: absolute; 
+                bottom: 0; 
+                display: block; 
+                width: 100%; 
+                text-align: center; 
+                opacity: 0; 
+                transition: all 0.3s ease-out;
+            }
+
+            &:first-child { 
+                &::after { 
+                    content: 'HOME'; 
+                }
+            }
+        }
+
+        a.teams-link { 
+            &:after { 
+                content: "TEAMS";
+            }
+        }
+
+        a.search-link { 
+            &:after { 
+                content: "SEARCH";
+            }
+        }
+
+        a.position-link { 
+            &:after { 
+                content: "POSITION"; 
+            }
+        }
+        a.nation-link { 
+            &:after { 
+                content: "NATION"; 
+            }
+        }
+
+        a.active{
+            color: $nav-text;
+        }
+    }
+}
+.hamburger-icon, 
+.close-icon { 
+    display: none;
+}
+
+@media screen and (max-width: 1000px){
+    .nav-bar{
+        position: initial; 
+        height: auto; 
+        min-height: auto;
+        background: $nav-bg; 
+
+        nav{
+            display: none;
+            
+            &.mobile-show { 
+                display: block; 
+                width: 100%; 
+                height: 100vh;
+                background: $nav-bg; 
+                top: 0; 
+                left: 0; 
+                position: fixed; 
+                z-index: 2; 
+                margin: 0;
+                padding-top: 70px;
+
+                a {
+                    display: flex; 
+                    justify-content: center; 
+                    padding-left: 35%; 
+                    margin: 4px;
+                    color: $nav-text;
+
+                    &:hover {
+                        color: $nav-text;
+                    }
+                }
+
+                a:after{
+                    opacity: 1;
+                    position: initial;
+                    width: auto;
+                    margin-left: 10px;
+                }
+
+                a svg {
+                    opacity: 1 !important;
+                }
+            }
+        }
+        .hamburger-icon, 
+        .close-icon {
+            display: block;
+            position: absolute; 
+            top: 15px; 
+            right: 15px; 
+            color: $nav-text;
+        }
+
+    }
+  }
+  
